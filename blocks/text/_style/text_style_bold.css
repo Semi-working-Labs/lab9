@@ -1,0 +1,12 @@
+.text_style_bold {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 49px;
+}
+
+@media screen and (max-width: 768px){
+  .text_style_bold {
+    font-size: 32px;
+    line-height: 37px;
+  }
+}
