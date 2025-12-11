@@ -1,0 +1,11 @@
+.scale {
+  transition: all .2s ease-in-out; 
+}
+
+.scale:hover {
+  transform: scale(1.1); 
+}
+
+.scale:focus {
+  transform: scale(1.1); 
+}
