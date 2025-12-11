@@ -1,0 +1,29 @@
+.header__complain {
+  align-self: center;
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  background-color: unset;
+  border: none;
+  padding: 0;
+}
+
+.header__complain:hover {
+  cursor: pointer;
+  color: #eb0e0e;
+  text-shadow: #00000050 0px 0px 5px;
+  transform: scale(1.1); 
+  text-transform: uppercase;
+}
+
+.header__complain:focus {
+  cursor: pointer;
+  transform: scale(1.1); 
+}
+
+@media screen and (max-width: 650px) {
+  .header__complain {
+    align-self: flex-start;
+  }
+}
