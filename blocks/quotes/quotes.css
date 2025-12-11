@@ -1,0 +1,15 @@
+.quotes {
+  margin: 155px 76px 82px 76px;
+}
+
+@media screen and (max-width: 1000px){
+  .quotes {
+    margin: 90px 76px 50px 76px;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .quotes {
+    margin: 90px 20px;
+  }
+}

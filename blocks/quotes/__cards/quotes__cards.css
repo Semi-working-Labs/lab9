@@ -1,0 +1,15 @@
+.quotes__cards {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1277px;
+}
+
+@media screen and (max-width: 1200px){
+  .quotes__cards {
+    justify-content: flex-start;
+  }
+}
