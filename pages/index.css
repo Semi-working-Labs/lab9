@@ -13,3 +13,15 @@
 @import url(../blocks/header/__list-item/header__list-item.css);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__complain/header__complain.css);
+
+@import url(../blocks/content/content.css);
+
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__text-container/lead__text-container.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+@import url(../blocks/lead/__image/lead__image.css);
+
+@import url(../blocks/text/_style/text_style_bold.css);
+@import url(../blocks/text/_style/text_style_condensed.css);
+@import url(../blocks/text/_style/text_style_orange.css);

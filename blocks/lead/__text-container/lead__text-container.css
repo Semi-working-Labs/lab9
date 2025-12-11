@@ -1,0 +1,32 @@
+.lead__text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 128px;
+  max-width: 600px;
+}
+ @media screen and (max-width: 1150px) {
+   .lead__text-container {
+     max-width: 50%;
+     margin-top: 80px;
+   }
+ }
+
+@media screen and (max-width: 900px) {
+  .lead__text-container {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .lead__text-container {
+    max-width: 90%;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .lead__text-container{
+    padding-left: 20px;
+  }
+}
