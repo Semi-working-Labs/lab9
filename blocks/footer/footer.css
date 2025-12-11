@@ -1,0 +1,17 @@
+.footer {
+  background-color: #FECEA8;
+  min-height: 697px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  font-family: 'Sans', 'Arial', sans-serif;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    min-height: 500px;
+  }
+}
