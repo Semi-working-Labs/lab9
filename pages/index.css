@@ -23,6 +23,14 @@
 @import url(../blocks/lead/__caption/lead__caption.css);
 @import url(../blocks/lead/__image/lead__image.css);
 
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__image-wrapper/place__image-wrapper.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__text-container/place__text-container.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__paragraph-container/place__paragraph-container.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+
 @import url(../blocks/text/_style/text_style_bold.css);
 @import url(../blocks/text/_style/text_style_condensed.css);
 @import url(../blocks/text/_style/text_style_orange.css);
