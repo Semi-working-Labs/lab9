@@ -10,8 +10,8 @@
 @media screen and (max-width: 768px) {
   .header__list {
     position: absolute;
-    top: 50px;
-    left: 0;
+    top: 10px;
+    left: 100px;
     flex-direction: column;
     background: #fff;
     width: 200px;

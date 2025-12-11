@@ -8,6 +8,7 @@
     border: none;
     cursor: pointer;
     padding: 0;
+    z-index: 10; /* Добавляем z-index, чтобы кнопка была выше меню */
   }
   
   .header__burger span {
