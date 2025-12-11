@@ -1,0 +1,10 @@
+.popup__checkbox {
+  margin: 2px 4px 0 0;
+}
+
+@media screen and (max-width: 900px) {
+  .popup__checkbox {
+    margin-top: 0;
+    width: 10px;
+  }
+}

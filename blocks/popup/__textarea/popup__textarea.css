@@ -1,0 +1,19 @@
+.popup__textarea {
+  width: 358px;
+  height: 80px;
+  border: 1px solid rgb(0, 0, 0, .2);
+  margin: 0 auto 27px auto;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  resize: none;
+  padding: 10px 10px 0 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .popup__textarea {
+    height: 60px;
+    width: 230px;
+    margin: 0 auto 15px auto;
+  }
+}
