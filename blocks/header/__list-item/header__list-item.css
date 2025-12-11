@@ -1,0 +1,13 @@
+.header__list-item{
+  font-weight: 700;
+}
+
+.header__list-item:not(:last-of-type) {
+  margin-right: 38px;
+}
+
+@media screen and (max-width: 650px) {
+  .header__list-item {
+    margin-bottom: 30px;
+  }
+}
